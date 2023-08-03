@@ -1,7 +1,5 @@
 package dao;
 
-import test.DBC;
-
 import java.sql.*;
 
 public class MariaDBCon implements DBC {

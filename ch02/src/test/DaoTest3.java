@@ -1,7 +1,7 @@
-package dao;
+package test;
 
-import dto.Member;
-import test.DBC;
+import dao.DBC;
+import dao.MariaDBCon;
 
 import java.sql.*;
 import java.util.Scanner;

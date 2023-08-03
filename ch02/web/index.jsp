@@ -8,16 +8,13 @@
 </head>
 <body>
   <div class="container">
-    <h2>메인 페이지</h2>
-    <nav class="nav">
-      <ul class="list">
-        <li><a href="test1.jsp?str=include">include 테스트</a></li>
-        <li><a href="test1.jsp?str=forward">forward 테스트</a></li>
-        <li><a href="test1.jsp?str=etc">etc 테스트</a></li>
-        <li><a href="test2.jsp">자바 객체 테스트</a></li>
-        <li><a href="">JSP Scope 테스트</a></li>
-      </ul>
-    </nav>
+    <header id="hd">
+      <%@include file="nav.jsp"%>
+    </header>
+    <hr>
+    <div class="con" id="contents">
+      <h2>메인페이지</h2>
+    </div>
   </div>
 </body>
 </html>
