@@ -7,6 +7,16 @@ public class Member {
     private String name;
     private int point;
 
+    public Member() { }
+
+    public Member(int no, String id, String pw, String name, int point) {
+        this.no = no;
+        this.id = id;
+        this.pw = pw;
+        this.name = name;
+        this.point = point;
+    }
+
     public int getNo() {
         return no;
     }
